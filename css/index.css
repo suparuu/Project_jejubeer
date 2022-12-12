@@ -21,73 +21,13 @@
 }
 @-webkit-keyframes ani02 {
   0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@keyframes ani02 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes ani03 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@keyframes ani03 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes ani04 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@keyframes ani04 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-@-webkit-keyframes ani05 {
-  0% {
     transform: translateX(600px);
   }
   100% {
     transform: translate3d(-800px, 0, 0);
   }
 }
-@keyframes ani05 {
+@keyframes ani02 {
   0% {
     transform: translateX(600px);
   }
@@ -177,8 +117,8 @@
   margin: 0 auto;
 }
 .main03 .subtitle02.on {
-  -webkit-animation: ani02 1.5s;
-          animation: ani02 1.5s;
+  -webkit-animation: ani01 1.5s;
+          animation: ani01 1.5s;
 }
 .main03 .subtitle02 .content03 {
   width: 100%;
@@ -235,8 +175,8 @@
   margin: 0 auto;
 }
 .main04 .subtitle03.on {
-  -webkit-animation: ani03 1.5s;
-          animation: ani03 1.5s;
+  -webkit-animation: ani01 1.5s;
+          animation: ani01 1.5s;
 }
 .main04 .subtitle03 .content05 {
   width: 100%;
@@ -293,8 +233,8 @@
   margin: 0 auto;
 }
 .main05 .subtitle04.on {
-  -webkit-animation: ani04 1.5s;
-          animation: ani04 1.5s;
+  -webkit-animation: ani01 1.5s;
+          animation: ani01 1.5s;
 }
 .main05 .subtitle04 .content07 {
   width: 100%;
@@ -365,8 +305,8 @@
   justify-content: center;
   align-content: center;
   max-width: 1200px;
-  -webkit-animation: ani05 10s infinite ease-in-out;
-          animation: ani05 10s infinite ease-in-out;
+  -webkit-animation: ani02 10s infinite ease-in-out;
+          animation: ani02 10s infinite ease-in-out;
 }
 .main06 .content09 .adv01 {
   padding: 7.5px;
@@ -610,31 +550,5 @@ footer .imgbox01 .img13 img {
     font-size: 20px;
     color: #fff;
     text-align: center;
-  }
-  footer {
-    left: 0;
-    bottom: 0;
-  }
-  footer .foot {
-    display: flex;
-    justify-content: space-between;
-  }
-  footer .foot .textbox07 {
-    width: 100%;
-    padding-left: 30px;
-  }
-  footer .foot .textbox07 p:nth-of-type(1) {
-    font-size: 13px;
-    color: #999;
-    text-align: center;
-  }
-  footer .foot .textbox07 p:nth-of-type(2) {
-    font-size: 11px;
-    color: #999;
-    margin-top: 20px;
-    text-align: center;
-  }
-  footer .imgbox01 {
-    display: none;
   }
 }/*# sourceMappingURL=index.css.map */

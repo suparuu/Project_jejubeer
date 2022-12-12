@@ -1,4 +1,4 @@
-@import "./common.css";
+@import url("./common.css");
 @import url(./font.css);
 .html {
   letter-spacing: -0.5px;

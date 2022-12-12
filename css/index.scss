@@ -14,42 +14,6 @@
 
 @keyframes ani02 {
   0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes ani03 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes ani04 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes ani05 {
-  0% {
     transform: translateX(600px);
   }
 
@@ -68,7 +32,6 @@
     width: 100%;
     vertical-align: top;
   }
-
 }
 
 .main02 {
@@ -80,16 +43,11 @@
   background-position: center center;
 
   .subtitle01 {
+    max-width: 1200px;
+    margin: 0 auto;
     &.on {
       animation: ani01 1.5s;
     }
-
-    max-width: 1200px;
-    margin: 0 auto;
-
-
-
-
 
     .content01 {
       width: 100%;
@@ -105,9 +63,7 @@
           width: 186px;
           height: 173px;
         }
-
       }
-
     }
 
     .content02 {
@@ -125,7 +81,6 @@
           width: 187.5px;
           height: 250px;
         }
-
       }
 
       .textbox02 {
@@ -140,15 +95,10 @@
           color: #fff;
           font-weight: 500;
         }
-
       }
-
     }
-
   }
-
 }
-
 
 .main03 {
   position: relative;
@@ -159,15 +109,11 @@
   background-position: center center;
 
   .subtitle02 {
-    &.on {
-      animation: ani02 1.5s;
-    }
-
     max-width: 1200px;
     margin: 0 auto;
-
-
-
+    &.on {
+      animation: ani01 1.5s;
+    }
 
     .content03 {
       width: 100%;
@@ -183,9 +129,7 @@
           width: 340px;
           height: 91px;
         }
-
       }
-
     }
 
     .content04 {
@@ -203,7 +147,6 @@
           width: 187.5px;
           height: 250px;
         }
-
       }
 
       .textbox03 {
@@ -218,15 +161,10 @@
           color: #fff;
           font-weight: 500;
         }
-
       }
-
     }
-
   }
-
 }
-
 
 .main04 {
   position: relative;
@@ -241,7 +179,7 @@
     margin: 0 auto;
 
     &.on {
-      animation: ani03 1.5s;
+      animation: ani01 1.5s;
     }
 
     .content05 {
@@ -258,9 +196,7 @@
           width: 340px;
           height: 91px;
         }
-
       }
-
     }
 
     .content06 {
@@ -278,7 +214,6 @@
           width: 187.5px;
           height: 250px;
         }
-
       }
 
       .textbox04 {
@@ -293,15 +228,10 @@
           color: #fff;
           font-weight: 500;
         }
-
       }
-
     }
-
   }
-
 }
-
 
 .main05 {
   position: relative;
@@ -316,7 +246,7 @@
     margin: 0 auto;
 
     &.on {
-      animation: ani04 1.5s;
+      animation: ani01 1.5s;
     }
 
     .content07 {
@@ -333,9 +263,7 @@
           width: 340px;
           height: 91px;
         }
-
       }
-
     }
 
     .content08 {
@@ -353,7 +281,6 @@
           width: 187.5px;
           height: 250px;
         }
-
       }
 
       .textbox05 {
@@ -368,15 +295,10 @@
           color: #fff;
           font-weight: 500;
         }
-
       }
-
     }
-
   }
-
 }
-
 
 .main06 {
   width: 100%;
@@ -407,7 +329,7 @@
       justify-content: center;
       align-content: center;
       max-width: 1200px;
-      animation: ani05 10s infinite ease-in-out;
+      animation: ani02 10s infinite ease-in-out;
     }
 
     .adv01 {
@@ -618,7 +540,6 @@ footer {
         width: 187.5px;
         height: 250px;
       }
-
     }
 
     .textbox02 {
@@ -633,9 +554,7 @@ footer {
         color: #fff;
         text-align: center;
       }
-
     }
-
   }
 
   .content04 {
@@ -651,7 +570,6 @@ footer {
         width: 187.5px;
         height: 250px;
       }
-
     }
 
     .textbox03 {
@@ -664,11 +582,8 @@ footer {
         color: #fff;
         text-align: center;
       }
-
     }
-
   }
-
 
   .content06 {
     display: flex;
@@ -682,7 +597,6 @@ footer {
         width: 187.5px;
         height: 250px;
       }
-
     }
 
     .textbox04 {
@@ -691,11 +605,8 @@ footer {
         font-size: 20px;
         color: #fff;
       }
-
     }
-
   }
-
 
   .content08 {
     width: 100%;
@@ -711,7 +622,6 @@ footer {
         width: 187.5px;
         height: 250px;
       }
-
     }
 
     .textbox05 {
@@ -723,41 +633,6 @@ footer {
         color: #fff;
         text-align: center;
       }
-
-    }
-
-  }
-
-
-  footer {
-    left: 0;
-    bottom: 0;
-
-    .foot {
-      display: flex;
-      justify-content: space-between;
-
-      .textbox07 {
-        width: 100%;
-        padding-left: 30px;
-
-        p:nth-of-type(1) {
-          font-size: 13px;
-          color: #999;
-          text-align: center;
-        }
-
-        p:nth-of-type(2) {
-          font-size: 11px;
-          color: #999;
-          margin-top: 20px;
-          text-align: center;
-        }
-      }
-    }
-
-    .imgbox01 {
-      display: none;
     }
   }
 }
