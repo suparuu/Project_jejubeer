@@ -1,6 +1,7 @@
 @import "./common.css";
 
 @keyframes ani01 {
+  //아래에서 위로 가는 애니메이션
   0% {
     transform: translateY(150px);
     opacity: 0;
@@ -13,12 +14,35 @@
 }
 
 @keyframes ani02 {
+  //맨밑 광고 애니메이션
   0% {
     transform: translateX(600px);
   }
 
   100% {
-    transform: translate3d(-800px, 0, 0);
+    transform: translateX(-1015px);
+  }
+}
+@keyframes ani03 {
+  //오른쪽에서 왼쪽가는 애니메이션
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes ani04 {
+  //왼쪽에서 오른쪽가는 애니메이션
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
   }
 }
 
@@ -26,7 +50,6 @@
   left: 0;
   top: 0;
   width: 100%;
-  position: relative;
 
   video {
     width: 100%;
@@ -35,7 +58,6 @@
 }
 
 .main02 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content02.png);
   background-repeat: no-repeat;
@@ -45,9 +67,6 @@
   .subtitle01 {
     max-width: 1200px;
     margin: 0 auto;
-    &.on {
-      animation: ani01 1.5s;
-    }
 
     .content01 {
       width: 100%;
@@ -58,6 +77,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        &.on {
+          animation: ani01 1.5s;
+        }
 
         img {
           width: 186px;
@@ -76,6 +98,9 @@
         width: 55%;
         display: flex;
         justify-content: right;
+        &.on {
+          animation: ani04 1.5s;
+        }
 
         img {
           width: 187.5px;
@@ -89,6 +114,9 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 30px;
+        &.on {
+          animation: ani03 1.5s;
+        }
 
         span {
           font-size: 18px;
@@ -101,7 +129,6 @@
 }
 
 .main03 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content03.png);
   background-repeat: no-repeat;
@@ -111,9 +138,6 @@
   .subtitle02 {
     max-width: 1200px;
     margin: 0 auto;
-    &.on {
-      animation: ani01 1.5s;
-    }
 
     .content03 {
       width: 100%;
@@ -124,6 +148,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        &.on {
+          animation: ani01 1.5s;
+        }
 
         img {
           width: 340px;
@@ -137,11 +164,17 @@
       display: flex;
       padding-bottom: 80px;
       padding-right: 90px;
+      &.on {
+        animation: ani01 1.5s;
+      }
 
       .img05 {
         width: 55%;
         display: flex;
         justify-content: right;
+        &.on {
+          animation: ani04 1.5s;
+        }
 
         img {
           width: 187.5px;
@@ -155,6 +188,9 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 30px;
+        &.on {
+          animation: ani03 1.5s;
+        }
 
         span {
           font-size: 18px;
@@ -167,7 +203,6 @@
 }
 
 .main04 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content04.png);
   background-repeat: no-repeat;
@@ -178,10 +213,6 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    &.on {
-      animation: ani01 1.5s;
-    }
-
     .content05 {
       width: 100%;
       padding-top: 70px;
@@ -191,6 +222,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        &.on {
+          animation: ani01 1.5s;
+        }
 
         img {
           width: 340px;
@@ -209,6 +243,9 @@
         width: 55%;
         display: flex;
         justify-content: right;
+        &.on {
+          animation: ani04 1.5s;
+        }
 
         img {
           width: 187.5px;
@@ -222,6 +259,9 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 30px;
+        &.on {
+          animation: ani03 1.5s;
+        }
 
         span {
           font-size: 18px;
@@ -234,7 +274,6 @@
 }
 
 .main05 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content05.png);
   background-repeat: no-repeat;
@@ -245,10 +284,6 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    &.on {
-      animation: ani01 1.5s;
-    }
-
     .content07 {
       width: 100%;
       padding-top: 70px;
@@ -258,6 +293,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        &.on {
+          animation: ani01 1.5s;
+        }
 
         img {
           width: 340px;
@@ -276,6 +314,9 @@
         width: 55%;
         display: flex;
         justify-content: right;
+        &.on {
+          animation: ani04 1.5s;
+        }
 
         img {
           width: 187.5px;
@@ -289,6 +330,9 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 30px;
+        &.on {
+          animation: ani03 1.5s;
+        }
 
         span {
           font-size: 18px;
@@ -329,7 +373,7 @@
       justify-content: center;
       align-content: center;
       max-width: 1200px;
-      animation: ani02 10s infinite ease-in-out;
+      animation: ani02 60s forwards infinite;
     }
 
     .adv01 {
@@ -548,6 +592,9 @@ footer {
       flex-direction: column;
       justify-content: center;
       padding-left: 30px;
+      &.on {
+        animation: ani03 1.5s;
+      }
 
       span {
         font-size: 20px;

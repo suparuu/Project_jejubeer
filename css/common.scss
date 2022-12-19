@@ -1,4 +1,4 @@
-@import url(./font.css);
+@import url("./font.css");
 
 /*reset css*/
 
@@ -102,6 +102,9 @@ header {
           font-size: 14px;
           font-weight: 500px;
           color: #55585b;
+          &.on {
+            color: #1ecad3;
+          }
         }
 
         /*a*/
@@ -134,6 +137,9 @@ header {
             font-size: 14px;
             color: #55585b;
             font-weight: 500px;
+            &.on {
+              color: #1ecad3;
+            }
           }
 
           /*a*/

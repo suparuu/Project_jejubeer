@@ -1,14 +1,4 @@
 @import "./common.css";
-@-webkit-keyframes ani01 {
-  0% {
-    transform: translateY(150px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
 @keyframes ani01 {
   0% {
     transform: translateY(150px);
@@ -19,27 +9,38 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes ani02 {
-  0% {
-    transform: translateX(600px);
-  }
-  100% {
-    transform: translate3d(-800px, 0, 0);
-  }
-}
 @keyframes ani02 {
   0% {
     transform: translateX(600px);
   }
   100% {
-    transform: translate3d(-800px, 0, 0);
+    transform: translateX(-1015px);
+  }
+}
+@keyframes ani03 {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes ani04 {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
   }
 }
 .main01 {
   left: 0;
   top: 0;
   width: 100%;
-  position: relative;
 }
 .main01 video {
   width: 100%;
@@ -47,7 +48,6 @@
 }
 
 .main02 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content02.png);
   background-repeat: no-repeat;
@@ -58,10 +58,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.main02 .subtitle01.on {
-  -webkit-animation: ani01 1.5s;
-          animation: ani01 1.5s;
-}
 .main02 .subtitle01 .content01 {
   width: 100%;
   padding-top: 70px;
@@ -71,6 +67,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.main02 .subtitle01 .content01 .img02.on {
+  animation: ani01 1.5s;
 }
 .main02 .subtitle01 .content01 .img02 img {
   width: 186px;
@@ -87,6 +86,9 @@
   display: flex;
   justify-content: right;
 }
+.main02 .subtitle01 .content02 .img03.on {
+  animation: ani04 1.5s;
+}
 .main02 .subtitle01 .content02 .img03 img {
   width: 187.5px;
   height: 250px;
@@ -98,6 +100,9 @@
   justify-content: center;
   padding-left: 30px;
 }
+.main02 .subtitle01 .content02 .textbox02.on {
+  animation: ani03 1.5s;
+}
 .main02 .subtitle01 .content02 .textbox02 span {
   font-size: 18px;
   color: #fff;
@@ -105,7 +110,6 @@
 }
 
 .main03 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content03.png);
   background-repeat: no-repeat;
@@ -115,10 +119,6 @@
 .main03 .subtitle02 {
   max-width: 1200px;
   margin: 0 auto;
-}
-.main03 .subtitle02.on {
-  -webkit-animation: ani01 1.5s;
-          animation: ani01 1.5s;
 }
 .main03 .subtitle02 .content03 {
   width: 100%;
@@ -130,6 +130,9 @@
   display: flex;
   justify-content: center;
 }
+.main03 .subtitle02 .content03 .img04.on {
+  animation: ani01 1.5s;
+}
 .main03 .subtitle02 .content03 .img04 img {
   width: 340px;
   height: 91px;
@@ -140,10 +143,16 @@
   padding-bottom: 80px;
   padding-right: 90px;
 }
+.main03 .subtitle02 .content04.on {
+  animation: ani01 1.5s;
+}
 .main03 .subtitle02 .content04 .img05 {
   width: 55%;
   display: flex;
   justify-content: right;
+}
+.main03 .subtitle02 .content04 .img05.on {
+  animation: ani04 1.5s;
 }
 .main03 .subtitle02 .content04 .img05 img {
   width: 187.5px;
@@ -156,6 +165,9 @@
   justify-content: center;
   padding-left: 30px;
 }
+.main03 .subtitle02 .content04 .textbox03.on {
+  animation: ani03 1.5s;
+}
 .main03 .subtitle02 .content04 .textbox03 span {
   font-size: 18px;
   color: #fff;
@@ -163,7 +175,6 @@
 }
 
 .main04 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content04.png);
   background-repeat: no-repeat;
@@ -174,10 +185,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.main04 .subtitle03.on {
-  -webkit-animation: ani01 1.5s;
-          animation: ani01 1.5s;
-}
 .main04 .subtitle03 .content05 {
   width: 100%;
   padding-top: 70px;
@@ -187,6 +194,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.main04 .subtitle03 .content05 .img06.on {
+  animation: ani01 1.5s;
 }
 .main04 .subtitle03 .content05 .img06 img {
   width: 340px;
@@ -203,6 +213,9 @@
   display: flex;
   justify-content: right;
 }
+.main04 .subtitle03 .content06 .img07.on {
+  animation: ani04 1.5s;
+}
 .main04 .subtitle03 .content06 .img07 img {
   width: 187.5px;
   height: 250px;
@@ -214,6 +227,9 @@
   justify-content: center;
   padding-left: 30px;
 }
+.main04 .subtitle03 .content06 .textbox04.on {
+  animation: ani03 1.5s;
+}
 .main04 .subtitle03 .content06 .textbox04 span {
   font-size: 18px;
   color: #fff;
@@ -221,7 +237,6 @@
 }
 
 .main05 {
-  position: relative;
   width: 100%;
   background-image: url(../img/main_img/content05.png);
   background-repeat: no-repeat;
@@ -232,10 +247,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.main05 .subtitle04.on {
-  -webkit-animation: ani01 1.5s;
-          animation: ani01 1.5s;
-}
 .main05 .subtitle04 .content07 {
   width: 100%;
   padding-top: 70px;
@@ -245,6 +256,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.main05 .subtitle04 .content07 .img08.on {
+  animation: ani01 1.5s;
 }
 .main05 .subtitle04 .content07 .img08 img {
   width: 340px;
@@ -261,6 +275,9 @@
   display: flex;
   justify-content: right;
 }
+.main05 .subtitle04 .content08 .img09.on {
+  animation: ani04 1.5s;
+}
 .main05 .subtitle04 .content08 .img09 img {
   width: 187.5px;
   height: 250px;
@@ -271,6 +288,9 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 30px;
+}
+.main05 .subtitle04 .content08 .textbox05.on {
+  animation: ani03 1.5s;
 }
 .main05 .subtitle04 .content08 .textbox05 span {
   font-size: 18px;
@@ -305,8 +325,7 @@
   justify-content: center;
   align-content: center;
   max-width: 1200px;
-  -webkit-animation: ani02 10s infinite ease-in-out;
-          animation: ani02 10s infinite ease-in-out;
+  animation: ani02 60s forwards infinite;
 }
 .main06 .content09 .adv01 {
   padding: 7.5px;
@@ -482,6 +501,9 @@ footer .imgbox01 .img13 img {
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
+  }
+  .content02 .textbox02.on {
+    animation: ani03 1.5s;
   }
   .content02 .textbox02 span {
     font-size: 20px;
